@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{format/style}
+
+\title{Lorem Ipsum}
+\subtitle{A Sample Document}
+\author{Author}
+\shortauthor{Author} % Appears in header
+\date{\monthname \ \the\year}
+\coursecode{Coursecode}
+\coursename{Coursename}
+
+\addbibresource{references.bib} 
+
+\begin{document}
+
+\USNtitlepage
+\tableofcontents
+
+\include{sections/lipsum}
+
+\printbibliography
+\appendix
+
+\end{document}

@@ -1,0 +1,55 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{lorem1500}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=0b5212c3157760f7c103f1e7e6328599}{%
+           family={Dolor},
+           familyi={D\bibinitperiod},
+           given={Sit\bibnamedelima Amet},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Venice}%
+      }
+      \list{publisher}{1}{%
+        {Typesetters Guild Press}%
+      }
+      \strng{namehash}{0b5212c3157760f7c103f1e7e6328599}
+      \strng{fullhash}{0b5212c3157760f7c103f1e7e6328599}
+      \strng{fullhashraw}{0b5212c3157760f7c103f1e7e6328599}
+      \strng{bibnamehash}{0b5212c3157760f7c103f1e7e6328599}
+      \strng{authorbibnamehash}{0b5212c3157760f7c103f1e7e6328599}
+      \strng{authornamehash}{0b5212c3157760f7c103f1e7e6328599}
+      \strng{authorfullhash}{0b5212c3157760f7c103f1e7e6328599}
+      \strng{authorfullhashraw}{0b5212c3157760f7c103f1e7e6328599}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Reprinted from a scrambled section of Cicero's De Finibus}
+      \field{title}{Lorem Ipsum: The Origins of Dummy Text}
+      \field{year}{1500}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

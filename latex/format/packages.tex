@@ -1,0 +1,87 @@
+% ---------------------------
+% General Document Settings
+% ---------------------------
+\usepackage{fancyhdr}       % Customizes headers and footers
+\usepackage[a4paper, margin=2.5cm]{geometry} % Customizes page margins with specific value
+\usepackage{datetime}       % Date and time variables
+\usepackage{afterpage}
+
+% -------------------------
+% Graphics & Figures
+% -------------------------
+\usepackage{graphicx}       % For inserting images
+\usepackage{svg}            % For handling SVG images
+\usepackage{wrapfig}        % Wraps text around figures
+\usepackage{caption}        % Customizes captions
+\usepackage{adjustbox}      % Resizes and adjusts content
+\usepackage{tikz}           % For creating graphics and diagrams
+\usepackage{tikz-3dplot}    % 3D plotting support with TikZ
+\usepackage{pgf}            % Advanced plotting capabilities
+\usepackage{subcaption}     % Sub-figures within a figure environment
+
+% -------------------------
+% Math and Symbols
+% -------------------------
+\usepackage{amsmath}        % Provides advanced math features
+\usepackage{amssymb}        % Provides extra symbols for math
+\usepackage{easybmat}       % Easy matrix environment
+
+% -------------------------
+% Text Formatting
+% -------------------------
+\usepackage{soul}           % Text highlighting (e.g., \hl{highlighted text})
+\usepackage{ragged2e}       % Flexible paragraph formatting (e.g., \RaggedRight)
+\usepackage[raster]{tcolorbox} % Colored text boxes for highlighting sections
+\usepackage[absolute,overlay]{textpos}
+
+% -------------------------
+% Tables
+% -------------------------
+\usepackage{booktabs}       % Improved table formatting (e.g., \toprule, \midrule)
+\usepackage{array}          % Flexible table column formatting
+\usepackage[table]{xcolor}  % Adds color to tables
+\usepackage{tabularx}       % Flexible column width tables
+
+% -------------------------
+% Lists and Enumeration
+% -------------------------
+\usepackage{enumitem}       % Enhances list formatting
+
+% -------------------------
+% References
+% -------------------------
+\usepackage{hyperref}       % Hyperlinks for references and URLs
+\usepackage[backend=biber, style=ieee]{biblatex}
+
+% -------------------------
+% Miscellaneous
+% -------------------------
+\usepackage{lipsum}         % Generates dummy text for testing
+\usepackage{siunitx}        % Consistent handling of units and numbers
+\usepackage[justification=centering]{caption} % Customizes caption alignment
+\usepackage{multicol}       % Multiple columns for lists, etc.
+\usepackage{calc}           % Required for arithmetic operations
+\usepackage{ifthen}
+
+% -------------------------
+% Floating Objects and Layout
+% -------------------------
+\usepackage{float}          % Prevents floating objects from moving
+\usepackage{placeins}       % Restricts float movement to specific sections
+
+% -------------------------
+% Programming 
+% -------------------------
+\usepackage{listings}
+\lstset{
+    language=Python,
+    backgroundcolor=\color{lightgray!10},
+    frame=single,
+    rulecolor=\color{black}, % Box outline
+    basicstyle=\ttfamily\small, 
+    keywordstyle=\color{blue!60!black},
+    commentstyle=\color{gray!},
+    stringstyle=\color{green!50!black},
+    showstringspaces=false,
+    breaklines=true
+}

@@ -1,2 +1,0 @@
-# usn-latex-template
-

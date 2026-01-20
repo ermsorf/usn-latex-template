@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        "latex/**/*.aux": true,
+        "latex/**/*.bbl": true, 
+        "latex/**/*.bbl-SAVE-ERROR": true,
+        "latex/**/*.bcf": true,
+        "latex/**/*.blg": true,
+        "latex/**/*.fdb_latexmk": true,
+        "latex/**/*.fls": true,
+        "latex/**/*.log": true,
+        "latex/**/*.out": true,
+        "latex/**/*.toc": true,
+        "latex/**/*.synctex.gz": true,
+        "latex/**/*.run.xml": true,
+    },
+    
+    "editor.wordWrap": "on"
+}
