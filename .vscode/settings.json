@@ -12,6 +12,7 @@
         "latex/**/*.toc": true,
         "latex/**/*.synctex.gz": true,
         "latex/**/*.run.xml": true,
+        "latex/%OUTDIR%/**": true
     },
     
     "editor.wordWrap": "on"
