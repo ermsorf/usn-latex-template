@@ -2,7 +2,7 @@
 % General Document Settings
 % ---------------------------
 \usepackage{fancyhdr}       % Customizes headers and footers
-\usepackage[a4paper, margin=2.5cm]{geometry} % Customizes page margins with specific value
+\usepackage[a4paper, margin=25mm]{geometry} % Customizes page margins with specific value
 \usepackage{datetime}       % Date and time variables
 \usepackage{afterpage}
 
@@ -29,6 +29,7 @@
 % -------------------------
 % Text Formatting
 % -------------------------
+\usepackage{microtype}      % Better letter spacing and hyphenation
 \usepackage{soul}           % Text highlighting (e.g., \hl{highlighted text})
 \usepackage{ragged2e}       % Flexible paragraph formatting (e.g., \RaggedRight)
 \usepackage[raster]{tcolorbox} % Colored text boxes for highlighting sections
@@ -72,6 +73,8 @@
 % -------------------------
 % Programming 
 % -------------------------
+\usepackage{algorithm}
+\usepackage{algpseudocode}
 \usepackage{listings}
 \lstset{
     language=Python,

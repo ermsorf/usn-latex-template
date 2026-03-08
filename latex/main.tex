@@ -1,23 +1,29 @@
 \documentclass{format/style}
 
+% User configurations
 \title{Lorem Ipsum}
 \subtitle{A Sample Document}
 \author{Author}
-\shortauthor{Author} % Appears in header
+\shortauthor{A. Author} % Appears in header
 \date{\monthname \ \the\year}
 \coursecode{Coursecode}
-\coursename{Coursename}
-
+\coursename{Course Name}
 \addbibresource{references.bib} 
+
+
 
 \begin{document}
 
 \USNtitlepage
 \tableofcontents
 
+\twocolumn % switch to two-column layout
+
 \include{sections/lipsum}
 
 \printbibliography
-\appendix
+
+\onecolumn % switch back to one-column layout for appendix or other desired sections
+\appendix % every section after this will be an appendix
 
 \end{document}
